@@ -88,6 +88,8 @@ public class KebapMangerHibernateImpl implements KebapManager {
 		// TODO Auto-generated method stub
 		return sessionFactory.getCurrentSession().getNamedQuery("kanapka.wycofana")
 				.list();
+		
+		// lubie plackiu, komentarz terstowy
 	}
 
 	@Override
